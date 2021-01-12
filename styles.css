@@ -1,0 +1,49 @@
+body {
+	background-color: #1f272f;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	overflow: hidden;
+}
+.main {
+display: block;
+margin-top: 50px;
+padding: 15px;
+height: 500px;
+width: 90%;
+background-color: #ffffff17;
+color: white;
+font-family: monospace;
+justify-content: left;
+align-content: left;
+
+
+}
+.btn-outline-secondary.btn-primary {
+	color: white;
+}
+.blog-footer {
+  padding: 2rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #333a42;
+  
+}
+.blog-footer:last-child {
+  margin-bottom: 0;
+}
+audio {
+width: inherit;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
