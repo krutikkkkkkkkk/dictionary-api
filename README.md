@@ -1,0 +1,2 @@
+# dictionary-api
+Google Dictionary
