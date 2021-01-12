@@ -10,12 +10,6 @@ function Search() {
         }) 
 .then(function(data){ 
 
-  ///audio
- voiceUrl = data[0].phonetics[0].audio;
- var audio = document.getElementById('audio');
-var src = document.createAttribute("src");
-src.value = voiceUrl;
-audio.setAttributeNode(src); 
 //Input
  document.getElementById('word').innerHTML = word;
 
@@ -30,6 +24,12 @@ audio.setAttributeNode(src);
             example1 = data[0].meanings[0].definitions[0].example;
 document.getElementById('definition1').innerHTML ="1:" + definition1;
 document.getElementById('example1').innerHTML = "1:" +  example1;
+  ///audio
+voiceUrl = data[0].phonetics[0].audio;
+var audio = document.getElementById('audio');
+var src = document.createAttribute("src");
+src.value = voiceUrl;
+audio.setAttributeNode(src); 
 
             definition2 = data[0].meanings[1].definitions[0].definition;
             example2 = data[0].meanings[1].definitions[0].example;
